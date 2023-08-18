@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-link {
+    text-decoration: none;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(32, 255, 43);
+    border: 3px solid rgb(24, 194, 38);
+    border-radius: 15px;
+    transition: background-color 0.3s, border-color 0.3s;
+    color: rgb(0, 0, 0);
+}
+
+.btn-link:hover {
+    color: aliceblue;
+    background-color: rgb(224, 70, 9);
+    border-color: rgb(255, 0, 0);
+}
